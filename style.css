@@ -23,7 +23,8 @@ header{
 .calculator{
     position: relative;
     width: 300px;
-    background: #d6109b;
+    height: 200px;
+    /* background: #d6109b; */
 }
 .calculator .buttons{
     position: relative;
@@ -95,4 +96,22 @@ header{
     grid-row: span 2;
     background: green;
     color: #219cf3;
+}
+
+@media (max-width: 375px) {
+    header{
+        font-size: 1em;
+    }
+   .calculator{
+    height: 200px;
+}
+}
+
+@media (max-width: 320px) {
+    header{
+        font-size: 1em;
+    }
+   .calculator{
+    height: 100px;
+}
 }
