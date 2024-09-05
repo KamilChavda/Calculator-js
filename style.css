@@ -115,3 +115,12 @@ header{
     height: 100px;
 }
 }
+@media (max-width: 271px) {
+    header{
+        font-size: 1em;
+    }
+   .calculator{
+    height: 50px;
+}
+}
+
