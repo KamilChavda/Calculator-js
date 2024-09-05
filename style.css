@@ -25,12 +25,12 @@ header{
     /* position: relative; */
     width: 300px;
     height: 200px;
-    background: #d6109b;
+    background: rgb(214, 16, 155);
 }
 .calculator .buttons{
     /* position: relative; */
     display: grid;
-    background: #d6109b;
+    background: rgb(214, 16, 155);
 }
 .calculator .buttons #value{
     position: relative;
